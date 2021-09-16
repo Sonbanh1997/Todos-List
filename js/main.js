@@ -1,9 +1,10 @@
-var toDosAPI = 'http://localhost:3000/todoList';
+var toDosAPI = 'https://my-json-server.typicode.com/Sonbanh1997/mockJS/todoList';
 
 
 function start(){
 getTodos(render_todos);
 todos_Form()
+console.log(myAPi);
 }
 
 function getTodos(callback){
